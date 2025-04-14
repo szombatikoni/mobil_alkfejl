@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttonColor">#996736</color>
+    <color name="colorAccent">#42f5ad</color>
+    <color name="colorPrimary">#42f5ad</color>
+    <color name="colorPrimaryDark">#36c98c</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">mobil_alkfejl_1</string>
+    <string name="gcm_defaultSenderId" translatable="false">331243520437</string>
+    <string name="google_api_key" translatable="false">AIzaSyCndJBtpZ_ZuuYpVRFc8u19HlyXZPIafNI</string>
+    <string name="google_app_id" translatable="false">1:331243520437:android:f080f1f808cc23a3e999fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCndJBtpZ_ZuuYpVRFc8u19HlyXZPIafNI</string>
+    <string name="google_storage_bucket" translatable="false">mobil-alkfejl-ijkckr.firebasestorage.app</string>
+    <string name="project_id" translatable="false">mobil-alkfejl-ijkckr</string>
+    <style name="Base.Theme.Mobil_alkfejl_1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+    </style>
+    <style name="Theme.Mobil_alkfejl_1" parent="Base.Theme.Mobil_alkfejl_1"/>
+</resources>

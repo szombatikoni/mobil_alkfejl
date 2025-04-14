@@ -1,0 +1,5 @@
+com.example.mobil_alkfejl_1.test.app-core-1.6.1-0 C:\Users\konra\.gradle\caches\transforms-4\7f5ec48a90108196d0ea5ed3ca15e003\transformed\core-1.6.1\res
+com.example.mobil_alkfejl_1.test.app-androidTest-1 C:\Users\konra\AndroidStudioProjects\mobil_alkfejl_1\app\build\generated\res\resValues\androidTest\debug
+com.example.mobil_alkfejl_1.test.app-mergeDebugAndroidTestResources-2 C:\Users\konra\AndroidStudioProjects\mobil_alkfejl_1\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.mobil_alkfejl_1.test.app-mergeDebugAndroidTestResources-3 C:\Users\konra\AndroidStudioProjects\mobil_alkfejl_1\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.mobil_alkfejl_1.test.app-debugAndroidTest-4 C:\Users\konra\AndroidStudioProjects\mobil_alkfejl_1\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

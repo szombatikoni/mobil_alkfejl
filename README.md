@@ -1,39 +1,50 @@
-# Zöldség-Gyümölcs Rendelő Webalkalmazás
+🥕 Zöldség-Gyümölcs Rendelő Mobilalkalmazás
 
-Ez a projekt egy Angular alapú webalkalmazás, amely lehetővé teszi a felhasználók számára, hogy zöldségeket és gyümölcsöket rendeljenek egy online piactéren keresztül. A projekt Firebase-szel készült, Firestore adatbázissal és Firebase Hostinggal.
+Ez a projekt egy Java alapú Android mobilalkalmazás, amely lehetővé teszi a felhasználók számára, hogy zöldségeket és gyümölcsöket rendeljenek egy online piactéren keresztül. Az alkalmazás Firebase Authentication-t és Firestore adatbázist használ a felhasználói fiókok és kosárkezelés kezelésére.
+📱 Főbb funkciók
 
-## Élő demó
+    ✅ Bejelentkezés / Regisztráció
 
-**Firebase Hosting URL:**  
-https://test1-fa011.web.app
+    ✅ Terméklista megtekintése (pl. alma, répa, citrom, káposzta stb.)
 
-## Főbb funkciók
+    ✅ Kosár funkció – mennyiséggel együtt
 
-- Kosár funkció
-- Bejelentkezés / Regisztráció
-- Termékkategóriák (pl. alma, káposzta, citrom, répa)
-- Futár kiválasztása rendeléshez
-- Rendelés összefoglaló oldal
+    ✅ Rendelési összeg kiszámítása
 
+    ✅ Menüfunkció: kijelentkezés, navigáció
 
-##  Technológiák
+🛠️ Technológiák
 
-- Angular 17
-- Firebase Authentication
-- Firestore Database
-- Firebase Hosting
+    Android (Java)
 
-## Felépítés
+    Firebase Authentication
+    Firebase Firestore Database
 
-- `src/Components/` – Angular komponensek (piactér, kosár, rendelés)
-- `src/Services/` – szolgáltatások Firestore-hoz és felhasználókhoz
-- `src/Models/` – adatmodellek
-- `src/assets/images/` – termékképek
+    ConstraintLayout + RecyclerView
 
----
+📁 Projekt felépítése
 
-### Készítette
+    MainActivity – nyitóképernyő, átirányítás bejelentkezéshez vagy regisztrációhoz
+    LoginActivity – bejelentkezési felület
+    RegisterActivity – regisztrációs felület
+    HomeActivity – piactér, termékek listázása
+    CartActivity – kosár megtekintése
 
-Szombati Konrád (IJKCKR) 
-Webfejlesztés (Angular + Firebase) beadandó  
-2024/25. tavaszi félév
+    ProductAdapter.java – RecyclerView adapter, kosárkezeléssel
+    Product.java – termék adatmodell
+
+    res/layout/ – XML UI fájlok
+    res/values/colors.xml – app színtémák
+
+🔒 Firebase funkciók
+
+    Felhasználók hitelesítése (email/jelszó)
+    Kosártartalom mentése: users/{uid}/cart
+    Quantity alapú kosárkezelés
+    Realtime kosárfrissítés
+
+👨‍💻 Készítette
+
+Szombati Konrád (IJKCKR)
+Mobil Alkalmazásfejlesztés beadandó
+2024/25. tavaszi félév – Android (Java) + Firebase
