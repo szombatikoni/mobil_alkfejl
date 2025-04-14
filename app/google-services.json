@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "331243520437",
+    "project_id": "mobil-alkfejl-ijkckr",
+    "storage_bucket": "mobil-alkfejl-ijkckr.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331243520437:android:f080f1f808cc23a3e999fc",
+        "android_client_info": {
+          "package_name": "com.example.mobil_alkfejl_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCndJBtpZ_ZuuYpVRFc8u19HlyXZPIafNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
